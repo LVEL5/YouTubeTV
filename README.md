@@ -23,6 +23,9 @@ This option provides a Chrome App that launches YouTube TV in full-screen mode w
    - Open **Chrome** and go to `chrome://extensions/`.
    - Enable **Developer mode** in the upper-right corner.
    - Click **Load unpacked** and select the `YouTube TV Apps` folder.
+   - Click **Load unpacked** and select the "Enable YouTube TV" folder.
+
+> You can also visit [youtube.com/tv](https://youtube.com/tv) to check if the extension work
 
 3. **Launch the App**:
    - The app will appear in the Chrome Apps list.
