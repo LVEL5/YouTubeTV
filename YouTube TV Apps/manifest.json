@@ -1,0 +1,25 @@
+{
+  "name": "YouTube TV Apps",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "YouTube TV",
+  "app": {
+    "urls": ["https://www.youtube.com/tv"],
+    "launch": {
+      "web_url": "https://www.youtube.com/tv",
+      "container": "shell"
+    }
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.youtube.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
